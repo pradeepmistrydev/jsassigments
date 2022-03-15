@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;600&family=Poppins:wght@100;400&display=swap');
+
+body {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
+    width: 100%;
+    height: 100vh;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1, p {
+    text-transform: capitalize;
+    text-align: center;
+    color: azure;
+}
+
+button {
+
+    background-image: linear-gradient(to right, #7b4397 0%, #dc2430 51%, #7b4397 100%)
+}
+
+button {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="to-do.css">
+</head>
+
+<body>
+    <h1>Todo List</h1>
+    <label>Add New Task:<br> <span>Add Task For Today</span></label> <input type="text" id="input" />
+    <button id="btn" onclick="addbtn()">Add Task</button>
+    <button id="update" onclick="update_btn_show()">Update</button>
+    <p id="error"></p>
+    <div>
+        <h2>Task No.</h2>
+        <h2>Task Title</h2>
+        <h2>Action</h2>
+    </div>
+    <ol class="ul-container" id="ul">
+    </ol>
+    <script src="to-do.js"></script>
+</body>
+
+</html>
